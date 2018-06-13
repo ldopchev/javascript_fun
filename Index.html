@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic Tac Toe</title>
+ 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      
+    <link rel="stylesheet" type="text/css" href="main.css">  
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+        
+   
+  </head>
+  <body >
+    <div class="container">  
+    <div class="row">  
+    	  <div id = "radiogroup" class="col-md-3">
+				<form id = "buttongroup" action="">
+					<input  type="radio" name="play" value="computer" checked="true">Play Computer<br>
+					<input type="radio" name="play" value="player">Play Another Player
+				</form>   	  
+    	  </div>
+        <div class="col-md-5">
+              <table id="matrix" class="table table-bordered">
+              <tr>
+                  <td><img id="img1" src="blank.png" class="img-responsive"/></td>
+                  <td><img id="img2" src="blank.png" class="img-responsive"/></td>
+                  <td><img id="img3" src="blank.png" class="img-responsive"/></td>
+              </tr>
+              <tr>
+                  <td><img id="img4" src="blank.png" class="img-responsive"/></td>
+                  <td><img id="img5" src="blank.png" class="img-responsive"/></td>
+                  <td><img id="img6" src="blank.png" class="img-responsive"/></td>
+              </tr>
+              <tr>
+                  <td><img id="img7" src="blank.png" class="img-responsive"/></td>
+                  <td><img id="img8" src="blank.png" class="img-responsive"/></td>
+                  <td><img id="img9" src="blank.png" class="img-responsive"/></td>
+              </tr>
+
+            </table>
+        </span>
+    </div>
+  </div>
+</div>
+      
+    <script src="script.js"></script> 
+  </body>  
+</html>
